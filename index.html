@@ -10,7 +10,17 @@
 <body>
     <form class="form-wrapper" action="POST" data-netlify="true">
         <h1>Send me an email</h1>
-        <div class="input-wrapper">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="contact-info">
+                <label for="name">Email</label>
+                <input type="text" id="email" placeholder="Email" required>
+            </div>
+        </div>
+        <div class="message-wrapper">
             <label for="message-box">Message</label>
             <textarea type="text" id="message-box" name="message-box" placeholder="Insert message here..." rows="13" maxlength="1000" required></textarea>
         </div>

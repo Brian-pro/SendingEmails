@@ -5,6 +5,9 @@
     #eeaeca - pink
     #94bbe9 - blue
 
+    #329D9C - Ocean blue
+    #7BE495 - Lime
+
     #8800C7 - dark purple
     #A44CD3 - medium pruple
     #E090DF - light purple 
@@ -17,7 +20,7 @@ body {
     padding: 0px;
     margin: 0px;
     background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: radial-gradient(circle, rgb(240, 140, 183) 0%, rgb(111, 168, 233) 100%);
     display: flex;
     align-items: center;
 }
@@ -28,18 +31,36 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom right, #8800C7, #A44CD3);
+    background-image: linear-gradient(to bottom right, #94bbe9, #eeaeca);
     color: #fff;
     width: 600px;
-    height: 500px;
+    height: 550px;
     margin: auto;
 }
 
-.input-wrapper {
+/* Name and Email */
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
     width: 80%;
 }
 
-.input-wrapper > label, input {
+.contact-info {
+    width: 45%;
+}
+
+.contact-info > input {
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+}
+
+/* message box */
+.message-wrapper {
+    width: 80%;
+}
+
+.message-wrapper > label, input {
     display: flex;
 }
 
@@ -61,7 +82,7 @@ body {
 
 .send-button {
     background: none;
-    background-color: #FBBEDE;
+    background-image: linear-gradient(to top right, #8cbdf5, #e47ca9);
     color: #000;
     border: none;
     border-radius: 25px;
