@@ -31,7 +31,7 @@ body {
     background-image: linear-gradient(to bottom right, #8800C7, #A44CD3);
     color: #fff;
     width: 600px;
-    height: 400px;
+    height: 500px;
     margin: auto;
 }
 
@@ -52,6 +52,12 @@ body {
 }
 
 /* button */
+.submit-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .send-button {
     background: none;
     background-color: #FBBEDE;
