@@ -5,4 +5,4 @@
 ## Hosted with [Netlify](https://app.netlify.com)!
 
 ## Description
-This was a personal project made because I wanted to learn an easy way to make form that could be used to send an email to myself.
+This was a personal project made because I wanted to learn an easy way to make a form that could be used to send an email to myself.
