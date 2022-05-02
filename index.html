@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="form-wrapper" action="POST" data-netlify="true">
+        <h1>Send me an email</h1>
+        <div class="input-wrapper">
+            <label for="message-box">Message</label>
+            <textarea type="text" id="message-box" name="message-box" placeholder="Insert message here..." rows="13" maxlength="1000" required></textarea>
+        </div>
+        <div class="submit-area">
+            <div data-netlify-recaptcha="true"></div>
+            <button class="send-button">Submit</button>
+        </div>
+    </form>
+    <footer id="footer">
+        <a href="https://github.com/Brian-pro" target="_blank"><em>by Brian Rizer</em></a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
